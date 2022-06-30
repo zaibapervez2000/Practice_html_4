@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>freeCodeCampSurveyForm</title>
+  </head>
+  <body>
+    <h1>freeCodeCampSurveyForm</h1>
+    <p>Thank you for taking the time to help us improve
+    the plaform</p>
+    <div>
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+    </div>
+    <div>
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" placeholder="Enter your email" />
+    </div>
+    <div>
+      <label for="age">Age(optional)</label>
+      <input id="age" type="number" name="age" min="13" max="120">
+    </div>
+    <div>
+      <label for="role">Which option describes your current role?</label>
+      <select id="role" class="role" name="role">
+        <option disable selected value> -- Select current role -- </option>
+        <option value="student">Student</option>
+        <option value="full-time job">Full Time Job</option>
+        <option value="full=time learner">Full Time Learner</option>
+        <option value="prefer not to say">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select
+    </div>
+    <div>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <div>
+        <label for="definitely">Definitely</label>
+        <input id="definitely" type="radio" name="recommend" value="">
+      </div>
+      <div>
+        <label for="maybe">Maybe</label>
+        <input id="maybe" type="radio" name="recommend" value="">
+      </div>
+      <div>
+        <label for="not sure">Not sure</label>
+        <input id="not sure" type="radio" name="recommend" value="">
+        </div>
+        <div>
+          <p>What is your favourite feature of freeCodeCamp?</p>
+          <select required>
+            <option disable selected value>Select an option</option>
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+          <div>
+            <p>What would you like to see improved? <span>(Check all that apply)</span> </p>
+            <label for="front-end">Front-end Projects</label>
+            <input id="front-end" type="checkbox" name="" value="">
+            </div>
+            <div>
+            <label for="back-end">Back-end Projects</label>
+            <input id="back-end" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="data">Data visualisation</label>
+            <input id="data" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="challenges">Challenges</label>
+            <input id="challenges" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="open">Open Source Community</label>
+            <input id="open" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="gitter">Gitter help rooms</label>
+            <input id="gitter" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="videos">Videos</label>
+            <input id="videos" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="city">City Meetups</label>
+            <input id="City" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="wiki">Wiki</label>
+            <input id="wiki" type="checkbox" name="" value="">
+          </div>
+          <div>
+            <label for="">Forum</label>
+          </div>
+          <div>
+            <label for="add courses">Additional Courses</label>
+            <input id="add courses" type="checkbox" name="" value="">
+          </div>
+          <p>Any comments or suggestions?</p>
+          <textarea name="name" placeholder="Enter your name here"></textarea>
+          <input type="submit" name="submit" value="Submit">
+
+        </div>
+    </div>
+    <hr>
+    <h3>Skills</h3>
+      <table border="1" cellspacing="10">
+      <tr>
+        <td>Bootstrap Framework</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>MVC Pattern</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>Method Factory Pattern</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>HTML5</td>
+        <td>⭐⭐⭐⭐⭐</td>
+        <td>Object Oriented Programming</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+    </table>
+
+    <form class="" action="mailto" method="post" enctype="text/plain">
+      <div class="">
+        <label for="name1">Your Name</label>
+        <input required id="name1" type="text" name="name" value="" placeholder="Enter your name">
+      </div>
+      <div class="">
+        <label for="email1">Email</label>
+        <input required id="email1" type="email" name="email" value="" placeholder="Enter your email">
+      </div>
+      <div>
+        <label for="comment">Add your message</label>
+        <textarea id="comment" name="name" rows="4" cols="10"></textarea>
+
+      </div>
+      <input type="submit" name="your message" value="Submit">
+    </form>
+
+
+
+  </body>
+</html>
